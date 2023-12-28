@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit Converter</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .box {
+            position: relative;
+            left: 100px;
+        }
+
+        .heading {
+            position: relative;
+            left: 443px;
+        }
+
+        h2 .feettoinch {
+            color: white;
+            background-color: #0cbf75;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <nav>
+                <ul>
+                    <h1><a href="index.html">Converter</a></h1>
+                    <h2><a href="feet to inch.html">Feet to Inch</a></h2>
+                    <h2><a href="m to cm.html">meter to centimeter</a></h2>
+                    <h2><a href="kg to g.html" class="feettoinch">kilogram to gram</a></h2>
+
+                </ul>
+            </nav>
+        </header>
+        <div class="heading">kg to g</div>
+        <div class="box">
+            <div class="feet-to-inch">
+                <div class="feet">
+                    <h3>kg</h3>
+                </div>
+                <div class="equals">
+                    <h3>=</h3>
+                </div>
+                <div class="inch">
+                    <h3>g</h3>
+                </div>
+            </div>
+            <div class="input">
+                <input type="number" name="search" id="kilogram">
+                <input type="number" name="search" id="gram">
+            </div>
+        </div>
+    </div>
+    <script src="kg to g.js"></script>
+</body>
+
+</html>
